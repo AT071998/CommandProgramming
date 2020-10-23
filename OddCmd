@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(int argc,char *argv[]){
+    
+    int number;
+    number = atoi(argv[1]);
+    if(number%2==0){
+        printf("%d is a even",number);
+    }else{
+        printf("%d is a odd",number);
+    }
+    
+    
+    
+    
+}
